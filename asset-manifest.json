@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.a356911e.css",
+    "main.js": "/My-Portfolio/static/js/main.311ed204.js",
+    "static/js/453.99050793.chunk.js": "/My-Portfolio/static/js/453.99050793.chunk.js",
+    "static/media/bg-light.png": "/My-Portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/My-Portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/co2-dashboard.png": "/My-Portfolio/static/media/co2-dashboard.3e961d832af8176e14fb.png",
+    "static/media/marketall-ecommerce.png": "/My-Portfolio/static/media/marketall-ecommerce.8736320bf2cc8e6543ac.png",
+    "static/media/gdp-explorer.png": "/My-Portfolio/static/media/gdp-explorer.d5b9f9ddfb240caaf00f.png",
+    "static/media/text-generator.png": "/My-Portfolio/static/media/text-generator.5ca3de1b0f442ee6f4ba.png",
+    "static/media/wildlife-mapper.png": "/My-Portfolio/static/media/wildlife-mapper.deace65f1f050cb292b4.png",
+    "static/media/heart-risk.png": "/My-Portfolio/static/media/heart-risk.a4c1795ca6513c6566e1.png",
+    "static/media/outbreak-detector.png": "/My-Portfolio/static/media/outbreak-detector.2d90d1509fd221d7c85f.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.a356911e.css.map": "/My-Portfolio/static/css/main.a356911e.css.map",
+    "main.311ed204.js.map": "/My-Portfolio/static/js/main.311ed204.js.map",
+    "453.99050793.chunk.js.map": "/My-Portfolio/static/js/453.99050793.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a356911e.css",
+    "static/js/main.311ed204.js"
+  ]
+}
