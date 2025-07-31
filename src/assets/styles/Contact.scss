@@ -1,0 +1,123 @@
+#contact {
+  padding: 4rem 1rem;
+  background-color: #050f0b;
+  color: #ffffff;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+
+  .contact_wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+      font-size: 2.75rem;
+      color: #ffffff;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-size: 1.15rem;
+      color: #d1d1d1;
+      margin-bottom: 2rem;
+    }
+
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+
+      a {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        transition: color 0.3s ease;
+
+        svg {
+          font-size: 1.5rem;
+        }
+
+        &:hover {
+          color: #00e676; // WhatsApp green
+        }
+      }
+
+      .email-link:hover {
+        color: #64b5f6;
+      }
+    }
+  }
+
+  .contact-form {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+
+    .form-flex {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+
+      .MuiFormControl-root {
+        flex: 1;
+      }
+    }
+
+    .body-form {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    .MuiInputBase-input,
+    textarea.MuiInputBase-input {
+      color: #ffffff !important;
+      background-color: rgba(255, 255, 255, 0.07) !important;
+    }
+
+    .MuiOutlinedInput-root {
+      border-radius: 10px;
+
+      fieldset {
+        border-color: #999;
+      }
+
+      &:hover fieldset {
+        border-color: #5000ca;
+      }
+
+      &.Mui-focused fieldset {
+        border-color: #5000ca;
+        border-width: 2px;
+      }
+    }
+
+    .MuiInputLabel-root {
+      color: #cccccc !important;
+    }
+
+    .MuiFormHelperText-root {
+      color: #ff6b6b;
+    }
+
+    .send-btn {
+      float: right;
+      background: #5000ca;
+      color: #fff;
+      font-weight: bold;
+      padding: 0.5rem 2rem;
+      border-radius: 30px;
+      text-transform: none;
+
+      &:hover {
+        background-color: #3e00a8;
+      }
+    }
+  }
+}
